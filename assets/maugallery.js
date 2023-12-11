@@ -242,6 +242,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
+      $(this).addClass("active"); // Ligne initialement manquante
       $(this).addClass("active-tag");
 
       var tag = $(this).data("images-toggle");
