@@ -38,9 +38,10 @@ body {
 	color: #000
 }
 
-/* .social-link img {
+.social-link img {
+	height: 20px;
 	width: 20px;
-} */
+}
 
 #about {
 	display: flex;
