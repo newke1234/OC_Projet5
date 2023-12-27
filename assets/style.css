@@ -71,6 +71,10 @@ body {
 	width: 100%;
 }
 
+.carousel-item img{
+	height: auto;
+}
+
 #about-me {
 	flex: 2
 }
