@@ -68,7 +68,8 @@ body {
 }
 
 .picture img {
-	width: 100%;
+	height: auto;
+	/* width: 100%; */
 }
 
 .carousel-item img{
