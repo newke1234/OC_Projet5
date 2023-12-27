@@ -69,11 +69,12 @@ body {
 
 .picture img {
 	height: auto;
-	/* width: 100%; */
+	width: 100%;
 }
 
 .carousel-item img{
 	height: auto;
+	width: 100%;
 }
 
 #about-me {
