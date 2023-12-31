@@ -67,14 +67,22 @@
 				</div>
 				<div class="carousel-inner">
 					<picture class="carousel-item active">
-						<img class="d-block" width="1920" height="888" srcset="./assets/images/slider/ryoji-iwata-768px.webp 768w, ./assets/images/slider/ryoji-iwata-1920px.webp 1920w" sizes="(max-width: 768px) 768px, 1920px" src="./assets/images/slider/ryoji-iwata-1920px.webp" alt="Homme d'affaire traversant un passage piéton">
+						<source type="image/webp" 
+							srcset="./assets/images/slider/ryoji-iwata-650px.webp?width=650 650w,
+							 ./assets/images/slider/ryoji-iwata-1000px.webp?width=1000w 1000w, 
+							 ./assets/images/slider/ryoji-iwata-1920px.webp?width=1920w 1920w">
+						<img class="d-block w-100" 
+							loading="lazy" 
+							src="./assets/images/slider/ryoji-iwata-1920px.webp" 
+							alt="Homme d'affaire traversant un passage piéton">
+					</picture>
+					<!-- <picture class="carousel-item">
+						sizes="(max-width: 650px) 650px, (max-width: 1000px) 1000px, 1920px"
+						<img class="d-block w-100" loading="lazy" srcset="./assets/images/slider/nicholas-green-650px.webp 650w, ./assets/images/slider/nicholas-green-1000px.webp 1000w, ./assets/images/slider/nicholas-green-1920px.webp 1920w" sizes="(max-width: 650px) 650px, (max-width: 1000px) 1000px, 1920px" src="./assets/images/slider/nicholas-green-1920px.webp" alt="Foule bras levé lors d'un concert">
 					</picture>
 					<picture class="carousel-item">
-						<img class="d-block" width="1920" height="888" srcset="./assets/images/slider/nicholas-green-768px.webp 768w, ./assets/images/slider/nicholas-green-1920px.webp 1920w" sizes="(max-width: 768px) 768px, 1920px" src="./assets/images/slider/nicholas-green-1920px.webp" alt="Foule bras levé lors d'un concert">
-					</picture>
-					<picture class="carousel-item">
-						<img class="d-block" width="1920" height="888" srcset="./assets/images/slider/edward-cisneros-768px.webp 768w, ./assets/images/slider/edward-cisneros-1920px.webp 1920w" sizes="(max-width: 768px) 768px, 1920px" src="./assets/images/slider/edward-cisneros-1920px.webp" alt="Mariés qui dansants parmi leurs invités">
-					</picture>
+						<img class="d-block w-100" loading="lazy" srcset="./assets/images/slider/edward-cisneros-768px.webp 650w, ./assets/images/slider/edward-cisneros-1000px.webp 1000w, ./assets/images/slider/edward-cisneros-1920px.webp 1920w" sizes="(max-width: 650px) 650px, (max-width: 1000px) 1000px, 1920px" src="./assets/images/slider/edward-cisneros-1920px.webp" alt="Mariés qui dansants parmi leurs invités">
+					</picture> -->
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
