@@ -66,16 +66,15 @@
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				</div>
 				<div class="carousel-inner">
+
 					<picture class="carousel-item active">
-						
-						<!-- <source type="image/webp"> -->
-						<img class="d-block w-100" width="1920" height="888" 
-							srcset="./assets/images/slider/ryoji-iwata-320px.webp 320w, ./assets/images/slider/ryoji-iwata-640px.webp 640w, ./assets/images/slider/ryoji-iwata-1920px.webp 1000w"
-							sizes="(max-width:320px) 320px, (max-width:640px) 640px, 1920px"
-							src="./assets/images/slider/ryoji-iwata-1920px.webp" 
+						<source type="image/webp" srcset="./assets/images/slider/ryoji-iwata-320px.webp?width=320 320w,./assets/images/slider/ryoji-iwata-640px.webp?width=640 640w,./assets/images/slider/ryoji-iwata-1920px.webp?width=1920 1920w"
+						sizes="(max-width:320px) 320px, (max-width:640px) 640px, 1920px">
+						<img class="d-block w-100" loading="lazy"  width="1920" height="888" 
+							src="./assets/images/slider/nicholas-green-1920px.webp" 
 							alt="Homme d'affaire traversant un passage piéton">
-					</picture>
-					<!-- <picture class="carousel-item">
+					<!-- </picture>
+						<picture class="carousel-item">
 						<source type="image/webp" srcset="./assets/images/slider/nicholas-green-320px.webp?width=320 320w,./assets/images/slider/nicholas-green-640px.webp?width=640 640w,./assets/images/slider/nicholas-green-1000px.webp?width=1000 1000w,./assets/images/slider/nicholas-green-1920px.webp?width=1920 1920w"
 						sizes="(max-width:320px) 320px, (max-width:640px) 640px, (max-width:1000px) 1000px, 1920px">
 						<img class="d-block w-100" loading="lazy"  width="1920" height="888" 
