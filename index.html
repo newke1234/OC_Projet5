@@ -42,62 +42,58 @@
 	<script src="./assets/scripts.js" defer></script>
 </head>
 <body>
-	<header>
-		<div class="top-header">
-			<h1 class="name">Nina Carducci</h1>
-			<nav class="nav">   
-				<ul>
-					<li><a href="#about">À propos</a></li>
-					<li><a href="#gallery">Galerie</a></li>
-					<li><a href="#services">Service</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Aller sur notre page instagram"><img src="assets/images/instagram.png" width="40" height="40" alt="Logo instagram"></a></li>
-				</ul>
-			</nav>
-		</div>
-		<div id="header">
-			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-				</div>
-				<div class="carousel-inner">
-
-					<picture class="carousel-item active">
-						<source type="image/webp" srcset="./assets/images/slider/ryoji-iwata-320px.webp?width=320 320w, ./assets/images/slider/ryoji-iwata-640px.webp?width=640 640w, ./assets/images/slider/ryoji-iwata-640px.webp?width=1000 1000w, ./assets/images/slider/ryoji-iwata-1920px.webp?width=1920 1920w"
-						sizes="(max-width:320px) 320px, (max-width:640px) 640px, (max-width:1000px) 1000px, 1920px">
-						<img class="d-block w-100" width="1920" height="888" 
-							src="./assets/images/slider/ryoji-iwata-1920px.webp" 
-							alt="Homme d'affaire traversant un passage piéton">
-					</picture>
-					<picture class="carousel-item">
-						<source type="image/webp" srcset="./assets/images/slider/nicholas-green-320px.webp?width=320 320w,./assets/images/slider/nicholas-green-640px.webp?width=640 640w,./assets/images/slider/nicholas-green-640px.webp?width=1000 1000w,./assets/images/slider/nicholas-green-1920px.webp?width=1920 1920w"
-						sizes="(max-width:320px) 320px, (max-width:640px) 640px, (max-width:1000px) 1000px, 1920px">
-						<img class="d-block w-100" loading="lazy"  width="1920" height="888" 
-							src="./assets/images/slider/nicholas-green-1920px.webp" 
-							alt="Foule bras levés lors d'un concert">
-					</picture>
-					<picture class="carousel-item">
-						<source type="image/webp" srcset="./assets/images/slider/edward-cisneros-320px.webp?width=320 320w, ./assets/images/slider/edward-cisneros-640px.webp?width=640 640w,./assets/images/slider/edward-cisneros-640px.webp?width=1000 1000w,./assets/images/slider/edward-cisneros-1920px.webp?width=1920 1920w"
-						sizes="(max-width:320px) 320px, (max-width:640px) 640px, (max-width:1000px) 1000px, 1920px">
-						<img class="d-block w-100" loading="lazy"  width="1920" height="888" 
-							src="./assets/images/slider/edward-cisneros-1920px.webp" 
-							alt="Homme d'affaire traversant un passage piéton">
-					</picture>
-				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
-			</div>
-		</div>
+	<header class="top-header">
+		<h1 class="name"><a href="#header">Nina Carducci</a></h1>
+		<nav class="nav">   
+			<ul>
+				<li><a href="#about">À propos</a></li>
+				<li><a href="#gallery">Galerie</a></li>
+				<li><a href="#services">Service</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Aller sur notre page instagram"><img src="assets/images/instagram.png" width="40" height="40" alt="Logo instagram"></a></li>
+			</ul>
+		</nav>
 	</header>
-<main>
+<main>	
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+
+			<picture class="carousel-item active">
+				<source type="image/webp" srcset="./assets/images/slider/ryoji-iwata-320px.webp?width=320 320w, ./assets/images/slider/ryoji-iwata-640px.webp?width=640 640w, ./assets/images/slider/ryoji-iwata-640px.webp?width=1000 1000w, ./assets/images/slider/ryoji-iwata-1920px.webp?width=1920 1920w"
+				sizes="(max-width:320px) 320px, (max-width:640px) 640px, (max-width:1000px) 1000px, 1920px">
+				<img class="d-block w-100" width="1920" height="888" 
+					src="./assets/images/slider/ryoji-iwata-1920px.webp" 
+					alt="Homme d'affaire traversant un passage piéton">
+			</picture>
+			<picture class="carousel-item">
+				<source type="image/webp" srcset="./assets/images/slider/nicholas-green-320px.webp?width=320 320w,./assets/images/slider/nicholas-green-640px.webp?width=640 640w,./assets/images/slider/nicholas-green-640px.webp?width=1000 1000w,./assets/images/slider/nicholas-green-1920px.webp?width=1920 1920w"
+				sizes="(max-width:320px) 320px, (max-width:640px) 640px, (max-width:1000px) 1000px, 1920px">
+				<img class="d-block w-100" loading="lazy"  width="1920" height="888" 
+					src="./assets/images/slider/nicholas-green-1920px.webp" 
+					alt="Foule bras levés lors d'un concert">
+			</picture>
+			<picture class="carousel-item">
+				<source type="image/webp" srcset="./assets/images/slider/edward-cisneros-320px.webp?width=320 320w, ./assets/images/slider/edward-cisneros-640px.webp?width=640 640w,./assets/images/slider/edward-cisneros-640px.webp?width=1000 1000w,./assets/images/slider/edward-cisneros-1920px.webp?width=1920 1920w"
+				sizes="(max-width:320px) 320px, (max-width:640px) 640px, (max-width:1000px) 1000px, 1920px">
+				<img class="d-block w-100" loading="lazy"  width="1920" height="888" 
+					src="./assets/images/slider/edward-cisneros-1920px.webp" 
+					alt="Homme d'affaire traversant un passage piéton">
+			</picture>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
 <section id="about">
 	<picture class="picture left">
 		<img src="./assets/images/nina.webp" width="555" height="553" srcset="./assets/images/nina.webp 555w, ./assets/images/nina-320px.webp 320w" sizes="(max-width:420px) 320px, 555px" alt="Portrait de Nina">
